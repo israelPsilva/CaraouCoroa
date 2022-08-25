@@ -28,7 +28,7 @@ public class MainActivity extends AppCompatActivity {
                 // Passando dados pada próxima tela
                 int num = new Random().nextInt(2);
                 intent.putExtra( "numero", num );
-
+                finish();
                 startActivity( intent );
             }
         } );
